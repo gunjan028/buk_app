@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookStore</title>
     <link rel="stylesheet" href="../css/book.css">
+    <script src="../script.js"></script>
 </head>
 
 <body>
@@ -17,24 +18,24 @@
         <div class="left">
             Book Title:
         </div>
-        <div class="right">
+        <div id="book_title" class="right">
             <input type="text" placeholder="Book Title" />
         </div>
         <div class="left">
             Book ISBN:
         </div>
-        <div class="right">
+        <div id="book_isbn" class="right">
             <input type="text" placeholder="Book ISBN" />
         </div>
         <div class="left">
             Book Price:
         </div>
-        <div class="right">
+        <div id="book_price" class="right">
             <input type="text" placeholder="Book Price">
         </div>
     </div>
     <div class="table-bottom">
-        <button>Add book</button>
+        <button onclick="validateForm()">Add book</button>
     </div>
 </body>
 
